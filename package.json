@@ -1,0 +1,13 @@
+{
+  "name": "typechain",
+  "version": "1.0.0",
+  "description": "Learning Typescript by building a Blockchain",
+  "main": "index.js",
+  "repository": "https://github.com/Kang-Yuchan/Typechain.git",
+  "author": "Kang.Yuchan <ikimaku0517@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "node index.js",
+    "prestart": "tsc"
+  }
+}
