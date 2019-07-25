@@ -7,7 +7,12 @@
   "author": "Kang.Yuchan <ikimaku0517@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "start": "node index.js",
-    "prestart": "tsc"
+    "start": "tsc-watch --onSuccess \" node dist/index.js\" "
+  },
+  "dependencies": {
+    "typescript": "^3.5.3"
+  },
+  "devDependencies": {
+    "tsc-watch": "^2.2.1"
   }
 }
